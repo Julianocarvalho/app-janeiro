@@ -21,6 +21,8 @@ gem 'uglifier', '>= 1.3.0'
 gem 'coffee-rails', '~> 4.1.0'
 # bootstrap gem
 gem 'rails-assets-bootstrap', source: 'https://rails-assets.org'
+#NotifyJs
+gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
 
