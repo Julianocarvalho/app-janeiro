@@ -3,7 +3,8 @@ class Backoffice::AdminsController < BackofficeController
 
 
   def index
-  	@admins = Admin.all
+    #@admins = Admin.all
+  	@admins = Admin.with_full_access
   end
 
   def new

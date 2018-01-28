@@ -33,6 +33,7 @@ puts "Categorias cadastradas!"
  	name: "Administrador geral",
 	email: "admin@admin.com",
     password: "123456",
-    password_confirmation: "123456")
+    password_confirmation: "123456",
+    role: 0)
  
  puts "ADMINISTRADOR cadastrado com sucesso!"
